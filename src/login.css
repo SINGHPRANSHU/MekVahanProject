@@ -1,0 +1,46 @@
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content; 
+
+}
+
+.form{
+    width: auto;
+    padding-left:8em ;
+    padding-right:8em;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+
+
+  input[type=text]{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    
+   
+  }
+
+  input[type=submit]:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
